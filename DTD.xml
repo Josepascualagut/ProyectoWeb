@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE   paises [
+<!ELEMENT paises (pais*)>
+<!ELEMENT pais (nombre*,continente, numero_hab,gobierno)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT continente ANY>
+<!ELEMENT numero_hab (#PCDATA)>
+<!ELEMENT gobierno EMPTY>
+
+]>
+
+<paises>
+    <pais>
+        <nombre>Grecia</nombre>
+        <continente>Europa</continente>
+        <numhab> 11111111 </numhab>
+        <gobierno/>
+    </pais>
+</paises>

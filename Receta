@@ -1,0 +1,120 @@
+ 
+  <?xml version="1.0"?><encoding="UTF-8">
+  <!DOCTYPE Receta [
+
+<!ELEMENT Receta (Nombre,Descripción,Ingredientes,Instrucciones)>
+<!ELEMENT  nombre (#PCDATA)> 
+<!ELEMENT  Descripción (#PCDATA)> 
+  
+<!ELEMENT Ingredientes (Ingrediente+)>
+<!ELEMENT Ingrediente (Cantidad,item,)>
+<!ELEMENT Ingredientes (#PCDATA)>
+<!ELEMENT Ingrediente (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ATTLIST item (#PCDATA) #REQUIRED
+<!ELEMENT Ingrediente (nombre, cantidad)>
+<!ELEMENT Instrucciones (#PCDATA)
+<!ELEMENT preparación (#PCDATA)
+
+]>
+
+<Receta>
+
+<Nombre>Tortilla de patatas</Nombre>
+
+<Descripcion>
+
+La tradicional tortilla de patatas.
+
+</Descripcion>
+
+<Ingredientes>
+
+<Ingrediente>
+
+<Cantidad unidad="pieza">3</Cantidad>
+
+<Item>Patata</Item>
+
+</Ingrediente>
+
+<Ingrediente>
+
+<Cantidad unidad="pieza">2</Cantidad>
+
+<Item>Huevos</Item>
+
+</Ingrediente>
+
+<Ingrediente>
+
+<Cantidad unidad="litro">0.1</Cantidad>
+
+<Item>Aceite</Item>
+
+</Ingrediente>
+
+</Ingredientes>
+
+<Instrucciones>
+
+<Paso>
+
+Pelar y cortar la patata en rodajas
+
+</Paso>
+
+<Paso>
+
+Poner aceite en una paella
+
+</Paso>RECETA
+
+<!--Y así seguimos... -->
+
+</Instrucciones>
+
+</Receta>
+
+
+  
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
